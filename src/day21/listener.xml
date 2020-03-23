@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="listenersuite">
+	<listeners>
+		<listener class-name="day21.CustomListener" />
+	</listeners> 
+	<test name ="listenertest">
+		<classes>
+			<class name="day21.ListenerTest"/>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="extentsuite">
+	<listeners>
+		<listener class-name="extentReport.ExtentUtilities"/>
+	</listeners>
+	<test name="extenttest">
+		<classes>
+			<class name="extentReport.LoginTest"/>
+		</classes>
+	</test>
+</suite>

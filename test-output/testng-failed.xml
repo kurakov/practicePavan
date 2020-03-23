@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [extentsuite]">
+  <listeners>
+    <listener class-name="extentReport.ExtentUtilities"/>
+  </listeners>
+  <test name="extenttest">
+    <classes>
+      <class name="extentReport.LoginTest"/>
+    </classes>
+  </test> <!-- extenttest -->
+  <test name="extenttest(failed)">
+    <classes>
+      <class name="extentReport.LoginTest">
+        <methods>
+          <include name="setup"/>
+          <include name="logoTest"/>
+        </methods>
+      </class> <!-- extentReport.LoginTest -->
+    </classes>
+  </test> <!-- extenttest(failed) -->
+</suite> <!-- Failed suite [extentsuite] -->
